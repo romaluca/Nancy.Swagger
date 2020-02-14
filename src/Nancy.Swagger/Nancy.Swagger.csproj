@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <Description>Generated API documentation for Nancy using Swagger.</Description>
-    <APPVEYOR_BUILD_NUMBER Condition="'$(APPVEYOR_BUILD_NUMBER)' == ''">1</APPVEYOR_BUILD_NUMBER>
+    <APPVEYOR_BUILD_NUMBER Condition="'$(APPVEYOR_BUILD_NUMBER)' == ''">62</APPVEYOR_BUILD_NUMBER>
     <VersionPrefix>2.2.$(APPVEYOR_BUILD_NUMBER)</VersionPrefix>
     <VersionSuffix>alpha</VersionSuffix>
     <Authors>Kristian Hellang;Ciaran Downey;Contributors</Authors>
@@ -13,9 +13,9 @@
     <PackageIconUrl>http://nancyfx.org/nancy-nuget.png</PackageIconUrl>
     <PackageProjectUrl>https://github.com/yahehe/Nancy.Swagger</PackageProjectUrl>
     <PackageLicenseUrl>https://raw.githubusercontent.com/yahehe/Nancy.Swagger/master/LICENSE</PackageLicenseUrl>
-    <PackageTargetFallback Condition=" '$(TargetFramework)' == 'netstandard1.6' ">$(PackageTargetFallback);dnxcore50</PackageTargetFallback>
+    <PackageTargetFallback Condition=" '$(TargetFramework)' == 'netstandard2.0' ">$(PackageTargetFallback);dnxcore50</PackageTargetFallback>
     <NetStandardImplicitPackageVersion Condition=" '$(TargetFramework)' == 'netstandard1.6' ">1.6.0</NetStandardImplicitPackageVersion>
-    <PackageTargetFallback Condition=" '$(TargetFramework)' == 'netcoreapp1.0' ">$(PackageTargetFallback);dnxcore50</PackageTargetFallback>
+    <PackageTargetFallback Condition=" '$(TargetFramework)' == 'netcoreapp2.2' ">$(PackageTargetFallback);dnxcore50</PackageTargetFallback>
     <RuntimeFrameworkVersion Condition=" '$(TargetFramework)' == 'netcoreapp1.0' ">1.0.4</RuntimeFrameworkVersion>
     <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
     <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
@@ -24,6 +24,9 @@
 
   <PropertyGroup>
     <DocumentationFile>bin\$(Configuration)\$(TargetFramework)\Nancy.Swagger.xml</DocumentationFile>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <AssemblyVersion>2.2.54.0</AssemblyVersion>
+    <FileVersion>2.2.54.0</FileVersion>	
   </PropertyGroup>
 
   <ItemGroup>
