@@ -2,21 +2,19 @@
 
   <PropertyGroup>
     <Description>Generated API documentation for Nancy using Swagger.</Description>
-    <APPVEYOR_BUILD_NUMBER Condition="'$(APPVEYOR_BUILD_NUMBER)' == ''">62</APPVEYOR_BUILD_NUMBER>
+    <APPVEYOR_BUILD_NUMBER Condition="'$(APPVEYOR_BUILD_NUMBER)' == ''">67</APPVEYOR_BUILD_NUMBER>
     <VersionPrefix>2.2.$(APPVEYOR_BUILD_NUMBER)</VersionPrefix>
     <VersionSuffix>alpha</VersionSuffix>
-    <Authors>Kristian Hellang;Ciaran Downey;Contributors</Authors>
-    <TargetFrameworks>net452;netstandard1.6;netcoreapp1.0</TargetFrameworks>
+    <Authors></Authors>
+    <TargetFrameworks>net471;netstandard2.0;netcoreapp2.2</TargetFrameworks>
     <AssemblyName>Nancy.Swagger</AssemblyName>
-    <PackageId>Nancy.Swagger</PackageId>
+    <PackageId>Alyce.Nancy.Swagger</PackageId>
     <PackageTags>Nancy;Swagger</PackageTags>
-    <PackageIconUrl>http://nancyfx.org/nancy-nuget.png</PackageIconUrl>
-    <PackageProjectUrl>https://github.com/yahehe/Nancy.Swagger</PackageProjectUrl>
-    <PackageLicenseUrl>https://raw.githubusercontent.com/yahehe/Nancy.Swagger/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/romaluca/Nancy.Swagger</PackageProjectUrl>
     <PackageTargetFallback Condition=" '$(TargetFramework)' == 'netstandard2.0' ">$(PackageTargetFallback);dnxcore50</PackageTargetFallback>
-    <NetStandardImplicitPackageVersion Condition=" '$(TargetFramework)' == 'netstandard1.6' ">1.6.0</NetStandardImplicitPackageVersion>
+    <NetStandardImplicitPackageVersion Condition=" '$(TargetFramework)' == 'netstandard2.0' ">2.0.0</NetStandardImplicitPackageVersion>
     <PackageTargetFallback Condition=" '$(TargetFramework)' == 'netcoreapp2.2' ">$(PackageTargetFallback);dnxcore50</PackageTargetFallback>
-    <RuntimeFrameworkVersion Condition=" '$(TargetFramework)' == 'netcoreapp1.0' ">1.0.4</RuntimeFrameworkVersion>
+    <RuntimeFrameworkVersion Condition=" '$(TargetFramework)' == 'netcoreapp2.2' ">2.2.0</RuntimeFrameworkVersion>
     <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
     <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
     <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
@@ -26,7 +24,8 @@
     <DocumentationFile>bin\$(Configuration)\$(TargetFramework)\Nancy.Swagger.xml</DocumentationFile>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <AssemblyVersion>2.2.54.0</AssemblyVersion>
-    <FileVersion>2.2.54.0</FileVersion>	
+    <FileVersion>2.2.54.0</FileVersion>
+    <Version>2.2.67</Version>	
   </PropertyGroup>
 
   <ItemGroup>
@@ -38,7 +37,7 @@
     <PackageReference Include="Nancy.Metadata.Modules" Version="2.0.0-barneyrubble" />
   </ItemGroup>
 
-  <ItemGroup Condition=" '$(TargetFramework)' == 'net452' ">
+  <ItemGroup Condition=" '$(TargetFramework)' == 'net471' ">
     <Reference Include="System" />
     <Reference Include="Microsoft.CSharp" />
   </ItemGroup>
