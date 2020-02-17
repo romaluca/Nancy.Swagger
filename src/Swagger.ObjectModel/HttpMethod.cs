@@ -1,8 +1,8 @@
 
 
-namespace Swagger.ObjectModel
+namespace Swagger.ObjectModel.Alyce
 {
-    using Swagger.ObjectModel.Attributes;
+    using Swagger.ObjectModel.Alyce.Attributes;
 
     /// <summary>
     /// An enum representing standard HTTP methods.

@@ -7,9 +7,9 @@
 // </summary>
 // --------------------------------------------------------------------------------------------------------------------
 
-namespace Swagger.ObjectModel
+namespace Swagger.ObjectModel.Alyce
 {
-    using Swagger.ObjectModel.Builders;
+    using Swagger.ObjectModel.Alyce.Builders;
 
     /// <summary>
     /// The external documentation builder.

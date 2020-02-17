@@ -1,9 +1,9 @@
 using System.Collections.Generic;
 
 
-namespace Swagger.ObjectModel
+namespace Swagger.ObjectModel.Alyce
 {
-    using Swagger.ObjectModel.Attributes;
+    using Swagger.ObjectModel.Alyce.Attributes;
 
     /// <summary>
     /// A Model Object holds the definition of a new model for this API Declaration.

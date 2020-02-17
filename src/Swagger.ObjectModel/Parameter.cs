@@ -1,8 +1,8 @@
 
 
-namespace Swagger.ObjectModel
+namespace Swagger.ObjectModel.Alyce
 {
-    using Swagger.ObjectModel.Attributes;
+    using Swagger.ObjectModel.Alyce.Attributes;
 
     /// <summary>
     /// The Parameter Object describes a single parameter to be sent in an operation and maps to the parameters field in the Operation Object.

@@ -6,7 +6,7 @@
 //   The basic security scheme builder.
 // </summary>
 // --------------------------------------------------------------------------------------------------------------------
-namespace Swagger.ObjectModel.Builders
+namespace Swagger.ObjectModel.Alyce.Builders
 {
     /// <summary>
     /// The basic security scheme builder.

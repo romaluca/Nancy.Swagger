@@ -1,8 +1,8 @@
 
 
-namespace Swagger.ObjectModel
+namespace Swagger.ObjectModel.Alyce
 {
-    using Swagger.ObjectModel.Attributes;
+    using Swagger.ObjectModel.Alyce.Attributes;
 
     /// <summary>
     /// A Property Object holds the definition of a new property for a model.

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 
-namespace Swagger.ObjectModel
+namespace Swagger.ObjectModel.Alyce
 {
     public static class ReflectionExtensions
     {

@@ -1,9 +1,9 @@
 ﻿
-namespace Swagger.ObjectModel
+namespace Swagger.ObjectModel.Alyce
 {
     using System.Collections.Generic;
 
-    using Swagger.ObjectModel.Attributes;
+    using Swagger.ObjectModel.Alyce.Attributes;
 
     public class Operation : SwaggerModel
     {

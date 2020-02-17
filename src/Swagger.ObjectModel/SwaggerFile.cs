@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Swagger.ObjectModel
+namespace Swagger.ObjectModel.Alyce
 {
 	/// <summary>
 	/// This class is used to represent the File data type 

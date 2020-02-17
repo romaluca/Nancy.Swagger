@@ -66,12 +66,12 @@ using System.Globalization;
 using System.Reflection;
 using System.Runtime.Serialization;
 using System.Text;
-using Swagger.ObjectModel.Reflection;
+using Swagger.ObjectModel.Alyce.Reflection;
 
 // ReSharper disable LoopCanBeConvertedToQuery
 // ReSharper disable RedundantExplicitArrayCreation
 // ReSharper disable SuggestUseVarKeywordEvident
-namespace Swagger.ObjectModel
+namespace Swagger.ObjectModel.Alyce
 {
     /// <summary>
     /// Represents the json array.
@@ -484,7 +484,7 @@ namespace Swagger.ObjectModel
     }
 }
 
-namespace Swagger.ObjectModel
+namespace Swagger.ObjectModel.Alyce
 {
     /// <summary>
     /// This class encodes and decodes JSON strings.

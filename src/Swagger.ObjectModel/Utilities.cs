@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Text;
 
-namespace Swagger.ObjectModel
+namespace Swagger.ObjectModel.Alyce
 {
     public static class Utilities
     {        

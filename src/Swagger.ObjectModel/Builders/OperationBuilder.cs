@@ -2,7 +2,7 @@
 //      Copyright (c) 2015 Premise Health. All rights reserved.
 //  </copyright>
 
-namespace Swagger.ObjectModel.Builders
+namespace Swagger.ObjectModel.Alyce.Builders
 {
     using System;
     using System.Collections.Generic;

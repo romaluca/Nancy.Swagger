@@ -12,7 +12,7 @@ using System.Linq;
 using System.Reflection;
 using System.Security.Cryptography.X509Certificates;
 
-namespace Swagger.ObjectModel.Builders
+namespace Swagger.ObjectModel.Alyce.Builders
 {
     using System;
     using System.Collections.Generic;

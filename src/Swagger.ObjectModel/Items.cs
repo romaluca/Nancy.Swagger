@@ -1,4 +1,4 @@
-namespace Swagger.ObjectModel
+namespace Swagger.ObjectModel.Alyce
 {
     /// <summary>
     /// This object is used to describe the value types used inside an array.

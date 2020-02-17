@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Swagger.ObjectModel
+namespace Swagger.ObjectModel.Alyce
 {
     /// <summary>
     /// Represents a primitive Swagger data type.

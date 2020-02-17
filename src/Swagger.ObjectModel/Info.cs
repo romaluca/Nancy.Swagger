@@ -1,9 +1,9 @@
 using System;
 
 
-namespace Swagger.ObjectModel
+namespace Swagger.ObjectModel.Alyce
 {
-    using Swagger.ObjectModel.Attributes;
+    using Swagger.ObjectModel.Alyce.Attributes;
 
     /// <summary>
     /// The Info object provides metadata about the API.

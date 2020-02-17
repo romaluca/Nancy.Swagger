@@ -1,0 +1,44 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <Description>Provides Swagger data by annotating modules and routes.</Description>
+    <APPVEYOR_BUILD_NUMBER Condition="'$(APPVEYOR_BUILD_NUMBER)' == ''">1</APPVEYOR_BUILD_NUMBER>
+    <VersionPrefix>2.2.$(APPVEYOR_BUILD_NUMBER)</VersionPrefix>
+    <VersionSuffix>alpha</VersionSuffix>
+    <Authors>Kristian Hellang;Ciaran Downey;Contributors</Authors>
+    <TargetFrameworks>net471;netstandard2.0;netcoreapp2.2</TargetFrameworks>
+    <AssemblyName>Nancy.Swagger.Alyce.Annotations</AssemblyName>
+    <PackageId>Nancy.Swagger.Alyce.Annotations</PackageId>
+    <PackageTags>Nancy;Swagger;Annotations</PackageTags>
+    <PackageProjectUrl>https://github.com/romaluca/Nancy.Swagger</PackageProjectUrl>
+    <PackageTargetFallback Condition=" '$(TargetFramework)' == 'netstandard2.0' ">$(PackageTargetFallback);dnxcore50</PackageTargetFallback>
+    <NetStandardImplicitPackageVersion Condition=" '$(TargetFramework)' == 'netstandard2.0' ">2.0.0</NetStandardImplicitPackageVersion>
+    <PackageTargetFallback Condition=" '$(TargetFramework)' == 'netcoreapp2.2' ">$(PackageTargetFallback);dnxcore50</PackageTargetFallback>
+    <RuntimeFrameworkVersion Condition=" '$(TargetFramework)' == 'netcoreapp2.2' ">2.2.0</RuntimeFrameworkVersion>
+    <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+    <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
+    <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <DocumentationFile>bin\$(Configuration)\$(TargetFramework)\Nancy.Swagger.Alyce.Annotations.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Nancy.Swagger.Alyce\Nancy.Swagger.Alyce.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Nancy" Version="2.0.0-clinteastwood" />
+  </ItemGroup>
+
+  <ItemGroup Condition=" '$(TargetFramework)' == 'net471' ">
+    <Reference Include="System" />
+    <Reference Include="Microsoft.CSharp" />
+  </ItemGroup>
+
+  <ItemGroup Condition=" '$(TargetFramework)' == 'netstandard2.0' ">
+    <PackageReference Include="System.Reflection" Version="4.1.0" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F2196CF4-15EE-4790-8891-277DAF6BE526}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "etc", "etc", "{EA3F2EA3-B5D0-4078-88B0-A538094BA19E}"
+	ProjectSection(SolutionItems) = preProject
+		etc\CommonAssemblyInfo.cs = etc\CommonAssemblyInfo.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7AB59EB5-65D2-4339-B1D6-E21169AF7018}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nancy.Swagger.Alyce", "src\Nancy.Swagger.Alyce\Nancy.Swagger.Alyce.csproj", "{680E2637-8298-4874-8FF4-D6CCAE721667}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		DebugDotNet|Any CPU = DebugDotNet|Any CPU
+		DebugNet40|Any CPU = DebugNet40|Any CPU
+		DebugNet45|Any CPU = DebugNet45|Any CPU
+		DebugNet462|Any CPU = DebugNet462|Any CPU
+		Release|Any CPU = Release|Any CPU
+		ReleaseDotNet|Any CPU = ReleaseDotNet|Any CPU
+		ReleaseNet40|Any CPU = ReleaseNet40|Any CPU
+		ReleaseNet45|Any CPU = ReleaseNet45|Any CPU
+		ReleaseNet462|Any CPU = ReleaseNet462|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{680E2637-8298-4874-8FF4-D6CCAE721667}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{680E2637-8298-4874-8FF4-D6CCAE721667}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{680E2637-8298-4874-8FF4-D6CCAE721667}.DebugDotNet|Any CPU.ActiveCfg = Debug|Any CPU
+		{680E2637-8298-4874-8FF4-D6CCAE721667}.DebugDotNet|Any CPU.Build.0 = Debug|Any CPU
+		{680E2637-8298-4874-8FF4-D6CCAE721667}.DebugNet40|Any CPU.ActiveCfg = Debug|Any CPU
+		{680E2637-8298-4874-8FF4-D6CCAE721667}.DebugNet40|Any CPU.Build.0 = Debug|Any CPU
+		{680E2637-8298-4874-8FF4-D6CCAE721667}.DebugNet45|Any CPU.ActiveCfg = Debug|Any CPU
+		{680E2637-8298-4874-8FF4-D6CCAE721667}.DebugNet45|Any CPU.Build.0 = Debug|Any CPU
+		{680E2637-8298-4874-8FF4-D6CCAE721667}.DebugNet462|Any CPU.ActiveCfg = Debug|Any CPU
+		{680E2637-8298-4874-8FF4-D6CCAE721667}.DebugNet462|Any CPU.Build.0 = Debug|Any CPU
+		{680E2637-8298-4874-8FF4-D6CCAE721667}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{680E2637-8298-4874-8FF4-D6CCAE721667}.Release|Any CPU.Build.0 = Release|Any CPU
+		{680E2637-8298-4874-8FF4-D6CCAE721667}.ReleaseDotNet|Any CPU.ActiveCfg = Release|Any CPU
+		{680E2637-8298-4874-8FF4-D6CCAE721667}.ReleaseDotNet|Any CPU.Build.0 = Release|Any CPU
+		{680E2637-8298-4874-8FF4-D6CCAE721667}.ReleaseNet40|Any CPU.ActiveCfg = Release|Any CPU
+		{680E2637-8298-4874-8FF4-D6CCAE721667}.ReleaseNet40|Any CPU.Build.0 = Release|Any CPU
+		{680E2637-8298-4874-8FF4-D6CCAE721667}.ReleaseNet45|Any CPU.ActiveCfg = Release|Any CPU
+		{680E2637-8298-4874-8FF4-D6CCAE721667}.ReleaseNet45|Any CPU.Build.0 = Release|Any CPU
+		{680E2637-8298-4874-8FF4-D6CCAE721667}.ReleaseNet462|Any CPU.ActiveCfg = Release|Any CPU
+		{680E2637-8298-4874-8FF4-D6CCAE721667}.ReleaseNet462|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{680E2637-8298-4874-8FF4-D6CCAE721667} = {F2196CF4-15EE-4790-8891-277DAF6BE526}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AD903883-B6FC-4A31-81A4-27704E1BA3C0}
+	EndGlobalSection
+	GlobalSection(CodealikeProperties) = postSolution
+		SolutionGuid = 490b2a4f-22f5-46a2-93a9-b929191d1f55
+	EndGlobalSection
+EndGlobal

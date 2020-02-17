@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Swagger.ObjectModel.Attributes
+namespace Swagger.ObjectModel.Alyce.Attributes
 {
     [AttributeUsage(AttributeTargets.Property)]
     internal class SwaggerPropertyAttribute : Attribute

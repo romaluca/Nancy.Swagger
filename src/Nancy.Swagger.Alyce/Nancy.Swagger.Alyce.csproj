@@ -1,0 +1,40 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <Description>Generated API documentation for Nancy using Swagger.</Description>
+    <APPVEYOR_BUILD_NUMBER Condition="'$(APPVEYOR_BUILD_NUMBER)' == ''">75</APPVEYOR_BUILD_NUMBER>
+    <VersionPrefix>2.2.$(APPVEYOR_BUILD_NUMBER)</VersionPrefix>
+    <VersionSuffix>alpha</VersionSuffix>
+    <Authors></Authors>
+    <TargetFrameworks>net471;netstandard2.0;netcoreapp2.2</TargetFrameworks>
+    <AssemblyName>Nancy.Swagger.Alyce</AssemblyName>
+    <PackageId>Nancy.Swagger.Alyce</PackageId>
+    <PackageTags>Nancy;Swagger</PackageTags>
+    <PackageProjectUrl>https://github.com/romaluca/Nancy.Swagger</PackageProjectUrl>    
+    <NetStandardImplicitPackageVersion Condition=" '$(TargetFramework)' == 'netstandard2.0' ">2.0.0</NetStandardImplicitPackageVersion>    
+    <RuntimeFrameworkVersion Condition=" '$(TargetFramework)' == 'netcoreapp2.2' ">2.2.0</RuntimeFrameworkVersion>
+    <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+    <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
+    <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <DocumentationFile>bin\$(Configuration)\$(TargetFramework)\Nancy.Swagger.Alyce.xml</DocumentationFile>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <AssemblyVersion>2.2.75.0</AssemblyVersion>
+    <FileVersion>2.2.75.0</FileVersion>
+    <Version>2.2.75</Version>	
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Nancy" Version="2.0.0-barneyrubble" />
+    <PackageReference Include="Nancy.Metadata.Modules" Version="2.0.0-barneyrubble" />
+    <PackageReference Include="Swagger.ObjectModel" Version="2.2.59-alpha" />
+  </ItemGroup>
+
+  <ItemGroup Condition=" '$(TargetFramework)' == 'net471' ">
+    <Reference Include="System" />
+    <Reference Include="Microsoft.CSharp" />
+  </ItemGroup>
+
+</Project>

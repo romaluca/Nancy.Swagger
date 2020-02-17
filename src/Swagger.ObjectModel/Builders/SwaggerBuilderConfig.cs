@@ -1,9 +1,9 @@
-﻿namespace Swagger.ObjectModel.Builders
+﻿namespace Swagger.ObjectModel.Alyce.Builders
 {
     using System;
     using System.Collections.Concurrent;
 
-    using global::Swagger.ObjectModel;
+    using global::Swagger.ObjectModel.Alyce;
 
     public static class SwaggerBuilderConfig
     {

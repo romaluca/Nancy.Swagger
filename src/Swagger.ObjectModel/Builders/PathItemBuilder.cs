@@ -4,7 +4,7 @@
 
 using System;
 
-namespace Swagger.ObjectModel.Builders
+namespace Swagger.ObjectModel.Alyce.Builders
 {
     using System.Collections.Generic;
 

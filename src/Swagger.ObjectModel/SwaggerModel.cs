@@ -5,11 +5,11 @@ using System.Dynamic;
 using System.Linq;
 using System.Reflection;
 
-using Swagger.ObjectModel.Reflection;
+using Swagger.ObjectModel.Alyce.Reflection;
 
-namespace Swagger.ObjectModel
+namespace Swagger.ObjectModel.Alyce
 {
-    using Swagger.ObjectModel.Attributes;
+    using Swagger.ObjectModel.Alyce.Attributes;
 
     /// <summary>
     /// The base class for all Swagger models with logic to serialize it according to the Swagger schema.
