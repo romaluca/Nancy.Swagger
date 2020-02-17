@@ -12,9 +12,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\Swagger.ObjectModel\Swagger.ObjectModel.csproj" />
     <ProjectReference Include="..\..\src\Nancy.Swagger\Nancy.Swagger.csproj" />
-    <ProjectReference Include="..\..\src\Nancy.Swagger.Annotations\Nancy.Swagger.Annotations.csproj" />
   </ItemGroup>
 
   <ItemGroup>

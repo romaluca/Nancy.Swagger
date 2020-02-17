@@ -8,7 +8,7 @@
     <Authors></Authors>
     <TargetFrameworks>net471;netstandard2.0;netcoreapp2.2</TargetFrameworks>
     <AssemblyName>Nancy.Swagger</AssemblyName>
-    <PackageId>Alyce.Nancy.Swagger</PackageId>
+    <PackageId>Nancy.Swagger.Alyce</PackageId>
     <PackageTags>Nancy;Swagger</PackageTags>
     <PackageProjectUrl>https://github.com/romaluca/Nancy.Swagger</PackageProjectUrl>
     <PackageTargetFallback Condition=" '$(TargetFramework)' == 'netstandard2.0' ">$(PackageTargetFallback);dnxcore50</PackageTargetFallback>
@@ -23,18 +23,15 @@
   <PropertyGroup>
     <DocumentationFile>bin\$(Configuration)\$(TargetFramework)\Nancy.Swagger.xml</DocumentationFile>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <AssemblyVersion>2.2.54.0</AssemblyVersion>
-    <FileVersion>2.2.54.0</FileVersion>
-    <Version>2.2.67</Version>	
+    <AssemblyVersion>2.2.76.0</AssemblyVersion>
+    <FileVersion>2.2.76.0</FileVersion>
+    <Version>2.2.76</Version>	
   </PropertyGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\Swagger.ObjectModel\Swagger.ObjectModel.csproj" />
-  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Nancy" Version="2.0.0-barneyrubble" />
     <PackageReference Include="Nancy.Metadata.Modules" Version="2.0.0-barneyrubble" />
+    <PackageReference Include="Swagger.ObjectModel" Version="2.2.59-alpha" />
   </ItemGroup>
 
   <ItemGroup Condition=" '$(TargetFramework)' == 'net471' ">
